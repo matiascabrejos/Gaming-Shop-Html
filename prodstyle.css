@@ -190,6 +190,8 @@ img {
 
 .price-line {
   text-decoration: line-through;
+  padding-left: 4px;
+  color: red;
 }
 
 .discount {
@@ -215,6 +217,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 10px;
 }
 
 .badge-overlay {
@@ -272,5 +275,9 @@ img {
 
 img {
   padding-top: 40px;
+}
+
+.price-green {
+  color: green;
 }
 /*# sourceMappingURL=prodstyle.css.map */
