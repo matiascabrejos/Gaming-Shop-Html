@@ -76,6 +76,10 @@ nav i {
   font-size: 1.2rem;
 }
 
+.nav__menu a:hover {
+  color: #2196f3;
+}
+
 .nav__menu svg {
   width: 1.5rem;
   fill: white;

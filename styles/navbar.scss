@@ -73,6 +73,10 @@ nav i {
       font-size: 1.2rem;
     }
 
+    a:hover {
+      color: $primary-color;
+    }
+
     svg {
       width: 1.5rem;
       fill: white;
@@ -110,3 +114,4 @@ nav i {
     }
   }
 }
+

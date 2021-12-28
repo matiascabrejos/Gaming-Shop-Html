@@ -18,27 +18,27 @@ function checkInputs() {
   const password2Value = password2.value.trim();
 
   if (usernameValue === "") {
-    setErrorFor(username, "Ingrese su nombre");
+    setErrorFor(username, "Enter your name");
   } else {
     setSuccessFor(username);
   }
 
   if (emailValue === "") {
-    setErrorFor(email, "Ingrese su email");
+    setErrorFor(email, "Enter your email");
   } else if (!isEmail(emailValue)) {
-    setErrorFor(email, "Email no valido");
+    setErrorFor(email, "Invalid email");
   } else {
     setSuccessFor(email);
   }
 
   if (passwordValue === "") {
-    setErrorFor(password, "Ingrese un asunto");
+    setErrorFor(password, "Enter a topic");
   } else {
     setSuccessFor(password);
   }
 
   if (password2Value === "") {
-    setErrorFor(password2, "Ingrese su mensaje");
+    setErrorFor(password2, "Enter your message");
   } else {
     setSuccessFor(password2);
   }

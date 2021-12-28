@@ -14,11 +14,15 @@
   margin: 0;
 }
 
+html {
+  background-color: #ecf9ff;
+}
+
 h1 {
   width: 100%;
   background: #2196f3;
   padding: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   color: white;
   -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.05);

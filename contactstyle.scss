@@ -23,11 +23,15 @@ $cubic: cubic-bezier(0.64, 0.09, 0.08, 1);
   margin: 0;
 }
 
+html {
+  background-color: #ecf9ff;
+}
+
 h1 {
   width: 100%;
   background: $primary-color;
   padding: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   color: white;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.05);
   border-radius: 3px 3px 0 0;

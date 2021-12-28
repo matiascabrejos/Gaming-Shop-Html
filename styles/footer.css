@@ -111,6 +111,9 @@ footer p {
   .contact-area {
     margin-top: 16px;
   }
+  footer p {
+    margin: 0 4px 0 4px;
+  }
 }
 
 @media screen and (device-aspect-ratio: 40 / 71) {
