@@ -211,6 +211,9 @@ p {
   h2 {
     padding-bottom: 20px;
   }
+  .slide-text {
+    font-size: 14px;
+  }
 }
 
 @media screen and (device-aspect-ratio: 40 / 71) {
@@ -220,6 +223,9 @@ p {
     width: 90%;
     height: 100%;
     max-height: 500px;
+  }
+  .slide-text {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=style.css.map */
